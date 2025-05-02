@@ -25,7 +25,7 @@ public class UsuarioControlador {
 
     @GetMapping
     public List<Usuario> listaUsuarios(){
-        return usuarioServicio.getLibros();
+        return usuarioServicio.getUsuarios();
     }
 
     @PostMapping

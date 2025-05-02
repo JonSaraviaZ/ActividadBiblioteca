@@ -18,7 +18,7 @@ import com.example.actividad.servicio.LibroService;
 
 
 @RestController
-@RequestMapping("/book")
+@RequestMapping("/libro")
 public class LibroController {
 
     @Autowired
